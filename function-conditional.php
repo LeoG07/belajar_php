@@ -24,12 +24,14 @@ Output: "Halo Abduh, Selamat Datang di Sanbercode!"
 */
 
 // Code function di sini
-
+function greetings ($nama) {
+							echo "Halo $nama, Selamat Datang di Sanbercod!<br>";
+							}	
 
 // Hapus komentar untuk menjalankan code!
-// greetings("Bagas");
-// greetings("Wahyu");
-// greetings("nama peserta");
+greetings("Bagas");
+greetings("Wahyu");
+greetings("nama peserta");
 
 echo "<br>";
 
@@ -47,12 +49,22 @@ Output: ludba
 */
 
 // Code function di sini 
+function reverseString ($nama) 
+				{ $karakter = strlen($nama); //menghitung jumlah karakter string $nama
+							for ($t=$karakter; $t >=0 ; $t--)   //$t1 nilai, $t2 jumlah pengulangan, $t3 perhitungan tambah/kurang 
+								 { 
+            					 $output = substr($nama, $t, 1); // $nama isi data string,  
+            					 echo "$output"  ;
+                   				 }
+				}
 
 
 // Hapus komentar di bawah ini untuk jalankan Code
-// reverseString("nama peserta");
-// reverseString("Sanbercode");
-// reverseString("We Are Sanbers Developers")
+reverseString("nama peserta");
+echo "<br>";
+reverseString("Sanbercode");
+echo "<br>";
+reverseString("We Are Sanbers Developers");
 echo "<br>";
 
 echo "<h3>Soal No 3 Palindrome </h3>";

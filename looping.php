@@ -41,10 +41,16 @@
             4 - I Love PHP
             2 - I Love PHP
         */
-        // Lakukan Looping Di Sini
-            for ($t=0; $t<=10 ; $t++) { 
-                echo "I Love PHP $t";
-            }
+        echo "LOOPING PERTAMA" . "<br>" ;
+        for ($t=1; $t <=10 ; $t++) { 
+            echo "I Love PHP $t <br>";
+                    }
+        echo "<br>";
+
+        for ($t=20; $t >=10 ; $t--) { 
+            echo "I Love PHP $t <br>";
+                    }
+
 
         echo "<h3>Soal No 2 Looping Array Modulo </h3>";
         /* 
